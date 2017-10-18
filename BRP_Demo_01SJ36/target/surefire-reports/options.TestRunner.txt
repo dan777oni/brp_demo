@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 80, Failures: 0, Errors: 2, Skipped: 2, Time elapsed: 228.475 sec <<< FAILURE!
+And we submit Request(| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |)  Time elapsed: 0.007 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='sendToDealerModalContainer']/div[5]/div[2]/div/div/span/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'CANL-7C75HC2', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\daniel.mostovyak\AppData\Local\Temp\rust_mozprofile.yCnYMobpQK7y, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=6.1, moz:processID=29260, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d0a6f8e2-f9c3-4770-975c-d6b0cb8cadd9
+*** Element info: {Using=xpath, value=//div[@id='sendToDealerModalContainer']/div[5]/div[2]/div/div/span/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at web.pages.BRP_Page.submitRequest(BRP_Page.java:655)
+	at stepDefinitions.Steps.we_submit_Request(Steps.java:303)
+	at ?.And we submit Request(BRP_BYO_flow.feature:48)
+
+| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |  Time elapsed: 0.007 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id='sendToDealerModalContainer']/div[5]/div[2]/div/div/span/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'CANL-7C75HC2', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\daniel.mostovyak\AppData\Local\Temp\rust_mozprofile.yCnYMobpQK7y, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=6.1, moz:processID=29260, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d0a6f8e2-f9c3-4770-975c-d6b0cb8cadd9
+*** Element info: {Using=xpath, value=//div[@id='sendToDealerModalContainer']/div[5]/div[2]/div/div/span/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at web.pages.BRP_Page.submitRequest(BRP_Page.java:655)
+	at stepDefinitions.Steps.we_submit_Request(Steps.java:303)
+	at ?.And we submit Request(BRP_BYO_flow.feature:48)
+

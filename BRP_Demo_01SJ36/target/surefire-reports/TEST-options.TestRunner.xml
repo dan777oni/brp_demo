@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="80" failures="0" name="options.TestRunner" time="0.055" errors="2" skipped="2">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\EADCE007"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_101\jre"/>
+    <property name="TITLE" value="Tomcat"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="BASEDIR" value="C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45"/>
+    <property name="JENKINS_URL" value="localhost:8080/jenkins/"/>
+    <property name="CATALINA_HOME" value="C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="CGI"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="JAVA_OPTS" value=" -Djava.util.logging.config.file=&quot;C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45\conf\logging.properties&quot; -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="JOB_NAME" value="BRP_Demo_01SJ36"/>
+    <property name="COMPUTERNAME" value="CANL-7C75HC2"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="EXECUTABLE" value="C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45\bin\catalina.bat"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="daniel.mostovyak"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 94 Stepping 3, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\daniel.mostovyak\AppData\Local"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="BUILD_TAG" value="jenkins-BRP_Demo_01SJ36-6"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven32Main C:\Users\daniel.mostovyak\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Program_Files_Apache_Software_Foundation_apache-maven-3.3.9 C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45\webapps\jenkins\WEB-INF\lib\remoting-2.60.jar C:\Users\daniel.mostovyak\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar C:\Users\daniel.mostovyak\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar 58165"/>
+    <property name="HUDSON_URL" value="localhost:8080/jenkins/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e9c756343c94b280"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_101/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_101;C:\Program Files (x86)\Skype\Phone\; C:\Ruby23-x64\bin\; C:\Ruby23-x64\gecko\; C:\Ruby23-x64\drivers\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Astaro\Astaro SSL VPN Client\bin;C:\Users\daniel.mostovyak\AppData\Local\atom\bin"/>
+    <property name="java.io.tmpdir" value="C:\Users\DANIEL~1.MOS\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\daniel.mostovyak\AppData\Roaming"/>
+    <property name="DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="user.language" value="en"/>
+    <property name="CATALINA_TMPDIR" value="C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45\temp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="localhost:8080/jenkins/job/BRP_Demo_01SJ36/6/"/>
+    <property name="JAVA_ENDORSED_DIRS" value="C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45\endorsed"/>
+    <property name="ACTION" value="start"/>
+    <property name="M2_HOME" value="C:\Users\daniel.mostovyak\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Program_Files_Apache_Software_Foundation_apache-maven-3.3.9"/>
+    <property name="=C:" value="C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45\bin"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="ANSICON" value="130x300 (130x25)"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CATALINA_BASE" value="C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e9c756343c94b280"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jre1.8.0_77"/>
+    <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jre1.8.0_77\bin\java.exe&quot;"/>
+    <property name="_RUNJAVA" value="&quot;C:\Program Files\Java\jre1.8.0_77\bin\java.exe&quot;"/>
+    <property name="MAVEN_HOME" value="C:\Users\daniel.mostovyak\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Program_Files_Apache_Software_Foundation_apache-maven-3.3.9"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.RB;.RBW"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\daniel.mostovyak\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.7.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45\conf\logging.properties&quot;"/>
+    <property name="HOMEPATH" value="\Users\daniel.mostovyak"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="6"/>
+    <property name="maven3.interceptor" value="C:\Users\daniel.mostovyak\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-interceptor-1.7.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_101\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\daniel.mostovyak\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Program_Files_Apache_Software_Foundation_apache-maven-3.3.9/bin;C:\Program Files\Java\jdk1.8.0_101/bin;C:\Program Files\Java\jdk1.8.0_101/bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_101;C:\Program Files (x86)\Skype\Phone\; C:\Ruby23-x64\bin\; C:\Ruby23-x64\gecko\; C:\Ruby23-x64\drivers\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Astaro\Astaro SSL VPN Client\bin;C:\Users\daniel.mostovyak\AppData\Local\atom\bin;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="BRP_Demo_01SJ36"/>
+    <property name="POM_ARTIFACTID" value="BRP_Demo_01SJ36"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="_RUNJDB" value="&quot;C:\Program Files\Java\jdk1.8.0_101\bin\jdb.exe&quot;"/>
+    <property name="JOB_URL" value="localhost:8080/jenkins/job/BRP_Demo_01SJ36/"/>
+    <property name="GIT_HOME" value="C:\Program Files\Git\bin"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="JENKINS_HOME" value="C:\Users\daniel.mostovyak\.jenkins"/>
+    <property name="BUILD_ID" value="6"/>
+    <property name="TEMP" value="C:\Users\DANIEL~1.MOS\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\bin"/>
+    <property name="M2" value="C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="5e03"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="VSEDEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="HUDSON_HOME" value="C:\Users\daniel.mostovyak\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\daniel.mostovyak\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Program_Files_Apache_Software_Foundation_apache-maven-3.3.9/bin"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="CURRENT_DIR" value="C:\Program Files\Apache Software Foundation\apache-tomcat-6.0.45\bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_101"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\daniel.mostovyak"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\daniel.mostovyak"/>
+    <property name="USERNAME" value="daniel.mostovyak"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="CORP.AD.CGINET"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\daniel.mostovyak\workspace\BRP_Demo_01SJ36"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\DANIEL~1.MOS\AppData\Local\Temp"/>
+    <property name="UATDATA" value="C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="java.class.path" value="C:\Users\daniel.mostovyak\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven32-agent-1.7.jar;C:\Users\daniel.mostovyak\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Program_Files_Apache_Software_Foundation_apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\Users\daniel.mostovyak\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Program_Files_Apache_Software_Foundation_apache-maven-3.3.9/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="ANSICON_DEF" value="7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\daniel.mostovyak\.jenkins\workspace\BRP_Demo_01SJ36"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="pathTogeckodriver" value="C:\Program Files (x86)\Java\selenium-java-3.0.0-beta2"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_101\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_101\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_101\jre\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_101/bin"/>
+    <property name="user.country" value="CA"/>
+    <property name="=ExitCode" value="00000000"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\daniel.mostovyak\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\C_Program_Files_Apache_Software_Foundation_apache-maven-3.3.9"/>
+    <property name="JOB_BASE_NAME" value="BRP_Demo_01SJ36"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="BRP_Demo_01SJ36"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the browser is &quot;Firefox&quot; and we navigate to &quot;http://54.83.51.229:4503/content/canam-offroad/&quot; and local is &quot;en_CA&quot; and function is &quot;BYO&quot;" time="0.001"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="When the model types are shown" time="0.001"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select category: &quot;ATV&quot; and/or &quot;&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the model &quot;&quot; with index &quot;2&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the packages are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select package &quot;&quot; with index &quot;7&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the colors and options are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the color: &quot;1&quot; and the engine: &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the accessories are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the accessory &quot;&quot; with index &quot;1&quot; and group index &quot;0&quot; and expected added number &quot;1&quot;" time="0.001"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the number of added accessories is as expected: &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Summary page is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select Send To Dealer" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Send to Dealer form is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we fill in FirstName: &quot;John&quot;, LastName: &quot;Blues&quot;, EmailAddress: &quot;john.b@mail.com&quot;, Phone Number: &quot;825-265 9898&quot;, Address: &quot;12 St High, Sherbrooke&quot; and PostalCode: &quot;J1J1J1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we add Comments: &quot;Fast Delivery&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we submit Request" time="0.003"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Then the Summary page is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the final price is valid" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" time="0.002"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the browser is &quot;Firefox&quot; and we navigate to &quot;http://54.83.51.229:4503/content/seadoo/&quot; and local is &quot;en_US&quot; and function is &quot;BYO&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="When the model types are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select category: &quot;Sea-Doo&quot; and/or &quot;&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the model &quot;&quot; with index &quot;2&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the packages are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select package &quot;&quot; with index &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the colors and options are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the color: &quot;1&quot; and the engine: &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the accessories are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the accessory &quot;&quot; with index &quot;1&quot; and group index &quot;0&quot; and expected added number &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the number of added accessories is as expected: &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Summary page is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select Send To Dealer" time="0.001"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Send to Dealer form is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we fill in FirstName: &quot;John&quot;, LastName: &quot;Blues&quot;, EmailAddress: &quot;john.b@mail.com&quot;, Phone Number: &quot;825-265 9898&quot;, Address: &quot;12 St High, Sherbrooke&quot; and PostalCode: &quot;J1J1J1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we add Comments: &quot;Fast Delivery&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we submit Request" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Then the Summary page is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the final price is valid" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="| Firefox | http://54.83.51.229:4503/content/seadoo/ | en_US | BYO | Sea-Doo |  |  | 2 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" time="0.003"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the browser is &quot;Firefox&quot; and we navigate to &quot;http://54.83.51.229:4503/content/ski-doo/&quot; and local is &quot;en_US&quot; and function is &quot;BYO&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="When the model types are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select category: &quot;Ski-Doo&quot; and/or &quot;&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the model &quot;&quot; with index &quot;4&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the packages are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select package &quot;&quot; with index &quot;1&quot;" time="0.002"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the colors and options are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the color: &quot;1&quot; and the engine: &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the accessories are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the accessory &quot;&quot; with index &quot;1&quot; and group index &quot;0&quot; and expected added number &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the number of added accessories is as expected: &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Summary page is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select Send To Dealer" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Send to Dealer form is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we fill in FirstName: &quot;John&quot;, LastName: &quot;Blues&quot;, EmailAddress: &quot;john.b@mail.com&quot;, Phone Number: &quot;825-265 9898&quot;, Address: &quot;12 St High, Sherbrooke&quot; and PostalCode: &quot;J1J1J1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we add Comments: &quot;Fast Delivery&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we submit Request" time="0.007">
+    <error message="Unable to locate element: //div[@id=&apos;sendToDealerModalContainer&apos;]/div[5]/div[2]/div/div/span/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;CANL-7C75HC2&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\daniel.mostovyak\AppData\Local\Temp\rust_mozprofile.yCnYMobpQK7y, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=6.1, moz:processID=29260, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d0a6f8e2-f9c3-4770-975c-d6b0cb8cadd9
+*** Element info: {Using=xpath, value=//div[@id=&apos;sendToDealerModalContainer&apos;]/div[5]/div[2]/div/div/span/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id=&apos;sendToDealerModalContainer&apos;]/div[5]/div[2]/div/div/span/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;CANL-7C75HC2&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\daniel.mostovyak\AppData\Local\Temp\rust_mozprofile.yCnYMobpQK7y, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=6.1, moz:processID=29260, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d0a6f8e2-f9c3-4770-975c-d6b0cb8cadd9
+*** Element info: {Using=xpath, value=//div[@id=&apos;sendToDealerModalContainer&apos;]/div[5]/div[2]/div/div/span/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at web.pages.BRP_Page.submitRequest(BRP_Page.java:655)
+	at stepDefinitions.Steps.we_submit_Request(Steps.java:303)
+	at ✽.And we submit Request(BRP_BYO_flow.feature:48)
+</error>
+  </testcase>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" time="0.007">
+    <error message="Unable to locate element: //div[@id=&apos;sendToDealerModalContainer&apos;]/div[5]/div[2]/div/div/span/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;CANL-7C75HC2&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\daniel.mostovyak\AppData\Local\Temp\rust_mozprofile.yCnYMobpQK7y, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=6.1, moz:processID=29260, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d0a6f8e2-f9c3-4770-975c-d6b0cb8cadd9
+*** Element info: {Using=xpath, value=//div[@id=&apos;sendToDealerModalContainer&apos;]/div[5]/div[2]/div/div/span/span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id=&apos;sendToDealerModalContainer&apos;]/div[5]/div[2]/div/div/span/span
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;CANL-7C75HC2&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\daniel.mostovyak\AppData\Local\Temp\rust_mozprofile.yCnYMobpQK7y, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=56.0, platformVersion=6.1, moz:processID=29260, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d0a6f8e2-f9c3-4770-975c-d6b0cb8cadd9
+*** Element info: {Using=xpath, value=//div[@id=&apos;sendToDealerModalContainer&apos;]/div[5]/div[2]/div/div/span/span}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at web.pages.BRP_Page.submitRequest(BRP_Page.java:655)
+	at stepDefinitions.Steps.we_submit_Request(Steps.java:303)
+	at ✽.And we submit Request(BRP_BYO_flow.feature:48)
+</error>
+  </testcase>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Then the Summary page is shown" time="0.009">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/ski-doo/ | en_US | BYO | Ski-Doo |  |  | 4 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the final price is valid" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the browser is &quot;Firefox&quot; and we navigate to &quot;http://54.83.51.229:4503/content/canam-offroad/&quot; and local is &quot;en_US&quot; and function is &quot;BYO&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="When the model types are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select category: &quot;SSV&quot; and/or &quot;&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the model &quot;&quot; with index &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the packages are shown" time="0.001"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select package &quot;&quot; with index &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the colors and options are shown" time="0.001"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the color: &quot;1&quot; and the engine: &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the accessories are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the accessory &quot;&quot; with index &quot;1&quot; and group index &quot;0&quot; and expected added number &quot;1&quot;" time="0.002"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the number of added accessories is as expected: &quot;1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Summary page is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select Send To Dealer" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Send to Dealer form is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we fill in FirstName: &quot;John&quot;, LastName: &quot;Blues&quot;, EmailAddress: &quot;john.b@mail.com&quot;, Phone Number: &quot;825-265 9898&quot;, Address: &quot;12 St High, Sherbrooke&quot; and PostalCode: &quot;J1J1J1&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we add Comments: &quot;Fast Delivery&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we submit Request" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Then the Summary page is shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the final price is valid" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_US | BYO | SSV |  |  | 1 |  | 1 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" time="0.003"/>
+</testsuite>
