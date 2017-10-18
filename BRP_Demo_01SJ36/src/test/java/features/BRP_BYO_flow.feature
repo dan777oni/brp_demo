@@ -55,9 +55,6 @@ Feature: Build Your Own flow
  |Firefox  |http://54.83.51.229:4503/content/seadoo/        |en_US  |BYO      |Sea-Doo  |         |      |2       |           |1            |1          |1           |          |0          |1       |1               |John      |Blues    |john.b@mail.com |825-265 9898|12 St High, Sherbrooke |J1J1J1 |Fast Delivery|
  |Firefox  |http://54.83.51.229:4503/content/ski-doo/       |en_US  |BYO      |Ski-Doo  |         |      |4       |           |1            |1          |1           |          |0          |1       |1               |John      |Blues    |john.b@mail.com |825-265 9898|12 St High, Sherbrooke |J1J1J1 |Fast Delivery|
  |Firefox  |http://54.83.51.229:4503/content/canam-offroad/ |en_US  |BYO      |SSV      |         |      |1       |           |1            |1          |1           |          |0          |1       |1               |John      |Blues    |john.b@mail.com |825-265 9898|12 St High, Sherbrooke |J1J1J1 |Fast Delivery|
- |Firefox  |http://54.83.51.229:4503/content/seadoo/        |en_ca  |BYO      |Sea-Doo  |         |      |2       |           |1            |1          |1           |          |0          |1       |1               |John      |Blues    |john.b@mail.com |825-265 9898|12 St High, Sherbrooke |J1J1J1 |Fast Delivery|
- |Firefox  |http://54.83.51.229:4503/content/ski-doo/       |en_ca  |BYO      |Ski-Doo  |         |      |4       |           |1            |1          |1           |          |0          |1       |1               |John      |Blues    |john.b@mail.com |825-265 9898|12 St High, Sherbrooke |J1J1J1 |Fast Delivery|
- |Firefox  |http://54.83.51.229:4503/content/canam-offroad/ |en_ca  |BYO      |SSV      |         |      |1       |           |1            |1          |1           |          |0          |1       |1               |John      |Blues    |john.b@mail.com |825-265 9898|12 St High, Sherbrooke |J1J1J1 |Fast Delivery|
     
   
 
