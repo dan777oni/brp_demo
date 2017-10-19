@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="20" failures="0" name="options.TestRunner" time="0.013" errors="0" skipped="0">
+<testsuite tests="20" failures="0" name="options.TestRunner" time="0.011" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_77\bin"/>
-    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\bin"/>
+    <property name="java.vm.version" value="25.152-b16"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Workspace\BRP\BRP_Demo_Git_05"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,9 +17,9 @@
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Workspace\BRP\BRP_Demo_Git_05"/>
-    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_77\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\DANIEL~1.MOS\AppData\Local\Temp\"/>
     <property name="line.separator" value="
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="C:\Users\daniel.mostovyak\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5146090684793360068.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\daniel.mostovyak\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1474717969694553070.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_101\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_101;C:\Program Files (x86)\Skype\Phone\; C:\Ruby23-x64\bin\; C:\Ruby23-x64\gecko\; C:\Ruby23-x64\drivers\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Astaro\Astaro SSL VPN Client\bin;C:\Users\daniel.mostovyak\AppData\Local\atom\bin;C:\Installers\QA Java\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_152\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_152\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin;C:\Program Files\Apache Software Foundation\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_152;C:\Program Files (x86)\Skype\Phone\; C:\Ruby23-x64\bin\; C:\Ruby23-x64\gecko\; C:\Ruby23-x64\drivers\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Astaro\Astaro SSL VPN Client\bin;C:\Users\daniel.mostovyak\AppData\Local\atom\bin;C:\Installers\QA Java\eclipse;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,15 +43,15 @@
     <property name="java.class.path" value="/C:/Installers/QA Java/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_77"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_152\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_77"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_77\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_77\lib\resources.jar;C:\Program Files\Java\jre1.8.0_77\lib\rt.jar;C:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_77\lib\jce.jar;C:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_77\classes"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_152\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_152\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_152\jre\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Workspace\BRP\BRP_Demo_Git_05\EMBEDDED"/>
     <property name="file.separator" value="\"/>
@@ -61,17 +61,17 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the browser is &quot;Firefox&quot; and we navigate to &quot;http://54.83.51.229:4503/content/canam-offroad/&quot; and local is &quot;en_CA&quot; and function is &quot;BYO&quot;" time="0.003"/>
-  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="When the model types are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the browser is &quot;Firefox&quot; and we navigate to &quot;http://54.83.51.229:4503/content/canam-offroad/&quot; and local is &quot;en_CA&quot; and function is &quot;BYO&quot;" time="0.002"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="When the model types are shown" time="0.001"/>
   <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select category: &quot;ATV&quot; and/or &quot;&quot;" time="0"/>
-  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the model &quot;&quot; with index &quot;2&quot;" time="0"/>
-  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the packages are shown" time="0"/>
-  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select package &quot;&quot; with index &quot;7&quot;" time="0.001"/>
-  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the colors and options are shown" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the model &quot;&quot; with index &quot;2&quot;" time="0.001"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the packages are shown" time="0.001"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select package &quot;&quot; with index &quot;7&quot;" time="0"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the colors and options are shown" time="0.001"/>
   <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the color: &quot;1&quot; and the engine: &quot;1&quot;" time="0"/>
-  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the accessories are shown" time="0.001"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the accessories are shown" time="0"/>
   <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select the accessory &quot;&quot; with index &quot;1&quot; and group index &quot;0&quot; and expected added number &quot;1&quot;" time="0"/>
-  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the number of added accessories is as expected: &quot;1&quot;" time="0.006"/>
+  <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And the number of added accessories is as expected: &quot;1&quot;" time="0.003"/>
   <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Summary page is shown" time="0"/>
   <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="And we select Send To Dealer" time="0"/>
   <testcase classname="| Firefox | http://54.83.51.229:4503/content/canam-offroad/ | en_CA | BYO | ATV |  |  | 2 |  | 7 | 1 | 1 |  | 0 | 1 | 1 | John | Blues | john.b@mail.com | 825-265 9898 | 12 St High, Sherbrooke | J1J1J1 | Fast Delivery |" name="Given the Send to Dealer form is shown" time="0"/>
