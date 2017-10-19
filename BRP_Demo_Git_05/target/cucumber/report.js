@@ -7,119 +7,119 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.scenarioOutline({
-  "line": 31,
-  "name": "BYO for en_US",
+  "line": 3,
+  "name": "BYO for en_CA",
   "description": "",
-  "id": "build-your-own-flow;byo-for-en-us",
+  "id": "build-your-own-flow;byo-for-en-ca",
   "type": "scenario_outline",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 30,
-      "name": "@en_us"
+      "line": 2,
+      "name": "@en_ca"
     }
   ]
 });
 formatter.step({
-  "line": 32,
+  "line": 4,
   "name": "the browser is \"\u003cBrowser\u003e\" and we navigate to \"\u003cHomePage\u003e\" and local is \"\u003cLocal\u003e\" and function is \"\u003cFunction\u003e\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 33,
+  "line": 5,
   "name": "the model types are shown",
   "keyword": "When "
 });
 formatter.step({
-  "line": 34,
+  "line": 6,
   "name": "we select category: \"\u003cCategory\u003e\" and/or \"\u003cModelYear\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 7,
   "name": "we select the model \"\u003cModel\u003e\" with index \"\u003cModelIndex\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 8,
   "name": "the packages are shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 37,
+  "line": 9,
   "name": "we select package \"\u003cPackage\u003e\" with index \"\u003cPackageIndex\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 38,
+  "line": 10,
   "name": "the colors and options are shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 39,
+  "line": 11,
   "name": "we select the color: \"\u003cColorIndex\u003e\" and the engine: \"\u003cEngineIndex\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 40,
+  "line": 12,
   "name": "the accessories are shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 41,
+  "line": 13,
   "name": "we select the accessory \"\u003cAccessory\u003e\" with index \"\u003cAIndex\u003e\" and group index \"\u003cAGroupIndex\u003e\" and expected added number \"\u003cAddedANumberExp\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 42,
+  "line": 14,
   "name": "the number of added accessories is as expected: \"\u003cAddedANumberExp\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 43,
+  "line": 15,
   "name": "the Summary page is shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 44,
+  "line": 16,
   "name": "we select Send To Dealer",
   "keyword": "And "
 });
 formatter.step({
-  "line": 45,
+  "line": 17,
   "name": "the Send to Dealer form is shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 46,
+  "line": 18,
   "name": "we fill in FirstName: \"\u003cFirstName\u003e\", LastName: \"\u003cLastName\u003e\", EmailAddress: \"\u003cEmail\u003e\", Phone Number: \"\u003cPhone\u003e\", Address: \"\u003cAddress\u003e\" and PostalCode: \"\u003cZip\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 47,
+  "line": 19,
   "name": "we add Comments: \"\u003cComments\u003e\"",
   "keyword": "And "
 });
 formatter.step({
-  "line": 48,
+  "line": 20,
   "name": "we submit Request",
   "keyword": "And "
 });
 formatter.step({
-  "line": 49,
+  "line": 21,
   "name": "the Summary page is shown",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 50,
+  "line": 22,
   "name": "the final price is valid",
   "keyword": "And "
 });
 formatter.examples({
-  "line": 53,
+  "line": 25,
   "name": "Function and home page parameters",
   "description": "",
-  "id": "build-your-own-flow;byo-for-en-us;function-and-home-page-parameters",
+  "id": "build-your-own-flow;byo-for-en-ca;function-and-home-page-parameters",
   "rows": [
     {
       "cells": [
@@ -147,79 +147,21 @@ formatter.examples({
         "Zip",
         "Comments"
       ],
-      "line": 54,
-      "id": "build-your-own-flow;byo-for-en-us;function-and-home-page-parameters;1"
-    },
-    {
-      "cells": [
-        "Firefox",
-        "http://54.83.51.229:4503/content/seadoo/",
-        "en_US",
-        "BYO",
-        "Sea-Doo",
-        "",
-        "",
-        "2",
-        "",
-        "1",
-        "1",
-        "1",
-        "",
-        "0",
-        "1",
-        "1",
-        "John",
-        "Blues",
-        "john.b@mail.com",
-        "825-265 9898",
-        "12 St High, Sherbrooke",
-        "J1J1J1",
-        "Fast Delivery"
-      ],
-      "line": 55,
-      "id": "build-your-own-flow;byo-for-en-us;function-and-home-page-parameters;2"
-    },
-    {
-      "cells": [
-        "Firefox",
-        "http://54.83.51.229:4503/content/ski-doo/",
-        "en_US",
-        "BYO",
-        "Ski-Doo",
-        "",
-        "",
-        "4",
-        "",
-        "1",
-        "1",
-        "1",
-        "",
-        "0",
-        "1",
-        "1",
-        "John",
-        "Blues",
-        "john.b@mail.com",
-        "825-265 9898",
-        "12 St High, Sherbrooke",
-        "J1J1J1",
-        "Fast Delivery"
-      ],
-      "line": 56,
-      "id": "build-your-own-flow;byo-for-en-us;function-and-home-page-parameters;3"
+      "line": 26,
+      "id": "build-your-own-flow;byo-for-en-ca;function-and-home-page-parameters;1"
     },
     {
       "cells": [
         "Firefox",
         "http://54.83.51.229:4503/content/canam-offroad/",
-        "en_US",
+        "en_CA",
         "BYO",
-        "SSV",
+        "ATV",
         "",
         "",
-        "1",
+        "2",
         "",
-        "1",
+        "7",
         "1",
         "1",
         "",
@@ -234,33 +176,33 @@ formatter.examples({
         "J1J1J1",
         "Fast Delivery"
       ],
-      "line": 57,
-      "id": "build-your-own-flow;byo-for-en-us;function-and-home-page-parameters;4"
+      "line": 27,
+      "id": "build-your-own-flow;byo-for-en-ca;function-and-home-page-parameters;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 87218,
+  "duration": 67579,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 55,
-  "name": "BYO for en_US",
+  "line": 27,
+  "name": "BYO for en_CA",
   "description": "",
-  "id": "build-your-own-flow;byo-for-en-us;function-and-home-page-parameters;2",
+  "id": "build-your-own-flow;byo-for-en-ca;function-and-home-page-parameters;2",
   "type": "scenario",
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 30,
-      "name": "@en_us"
+      "line": 2,
+      "name": "@en_ca"
     }
   ]
 });
 formatter.step({
-  "line": 32,
-  "name": "the browser is \"Firefox\" and we navigate to \"http://54.83.51.229:4503/content/seadoo/\" and local is \"en_US\" and function is \"BYO\"",
+  "line": 4,
+  "name": "the browser is \"Firefox\" and we navigate to \"http://54.83.51.229:4503/content/canam-offroad/\" and local is \"en_CA\" and function is \"BYO\"",
   "matchedColumns": [
     0,
     1,
@@ -270,13 +212,13 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 33,
+  "line": 5,
   "name": "the model types are shown",
   "keyword": "When "
 });
 formatter.step({
-  "line": 34,
-  "name": "we select category: \"Sea-Doo\" and/or \"\"",
+  "line": 6,
+  "name": "we select category: \"ATV\" and/or \"\"",
   "matchedColumns": [
     4,
     5
@@ -284,7 +226,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 35,
+  "line": 7,
   "name": "we select the model \"\" with index \"2\"",
   "matchedColumns": [
     6,
@@ -293,13 +235,13 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 36,
+  "line": 8,
   "name": "the packages are shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 37,
-  "name": "we select package \"\" with index \"1\"",
+  "line": 9,
+  "name": "we select package \"\" with index \"7\"",
   "matchedColumns": [
     8,
     9
@@ -307,12 +249,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 38,
+  "line": 10,
   "name": "the colors and options are shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 39,
+  "line": 11,
   "name": "we select the color: \"1\" and the engine: \"1\"",
   "matchedColumns": [
     10,
@@ -321,12 +263,12 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 40,
+  "line": 12,
   "name": "the accessories are shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 41,
+  "line": 13,
   "name": "we select the accessory \"\" with index \"1\" and group index \"0\" and expected added number \"1\"",
   "matchedColumns": [
     12,
@@ -337,7 +279,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 42,
+  "line": 14,
   "name": "the number of added accessories is as expected: \"1\"",
   "matchedColumns": [
     15
@@ -345,22 +287,22 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 43,
+  "line": 15,
   "name": "the Summary page is shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 44,
+  "line": 16,
   "name": "we select Send To Dealer",
   "keyword": "And "
 });
 formatter.step({
-  "line": 45,
+  "line": 17,
   "name": "the Send to Dealer form is shown",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 46,
+  "line": 18,
   "name": "we fill in FirstName: \"John\", LastName: \"Blues\", EmailAddress: \"john.b@mail.com\", Phone Number: \"825-265 9898\", Address: \"12 St High, Sherbrooke\" and PostalCode: \"J1J1J1\"",
   "matchedColumns": [
     16,
@@ -373,7 +315,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 47,
+  "line": 19,
   "name": "we add Comments: \"Fast Delivery\"",
   "matchedColumns": [
     22
@@ -381,17 +323,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.step({
-  "line": 48,
+  "line": 20,
   "name": "we submit Request",
   "keyword": "And "
 });
 formatter.step({
-  "line": 49,
+  "line": 21,
   "name": "the Summary page is shown",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 50,
+  "line": 22,
   "name": "the final price is valid",
   "keyword": "And "
 });
@@ -402,46 +344,46 @@ formatter.match({
       "offset": 16
     },
     {
-      "val": "http://54.83.51.229:4503/content/seadoo/",
+      "val": "http://54.83.51.229:4503/content/canam-offroad/",
       "offset": 45
     },
     {
-      "val": "en_US",
-      "offset": 101
+      "val": "en_CA",
+      "offset": 108
     },
     {
       "val": "BYO",
-      "offset": 125
+      "offset": 132
     }
   ],
   "location": "Steps.the_browser_is_and_we_navigate_to_and_local_is_and_function_is(String,String,String,String)"
 });
 formatter.result({
-  "duration": 9287356973,
+  "duration": 13847193545,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_model_types_are_shown()"
 });
 formatter.result({
-  "duration": 70978862,
+  "duration": 97868482,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Sea-Doo",
+      "val": "ATV",
       "offset": 21
     },
     {
       "val": "",
-      "offset": 38
+      "offset": 34
     }
   ],
   "location": "Steps.we_select_model_type_and_year(String,String)"
 });
 formatter.result({
-  "duration": 235893806,
+  "duration": 199490783,
   "status": "passed"
 });
 formatter.match({
@@ -458,9 +400,196 @@ formatter.match({
   "location": "Steps.we_select_the_model_MODEL_with_index(String,String)"
 });
 formatter.result({
-  "duration": 375942927,
+  "duration": 1121240093,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_packages_are_shown()"
+});
+formatter.result({
+  "duration": 4810369270,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "",
+      "offset": 19
+    },
+    {
+      "val": "7",
+      "offset": 33
+    }
+  ],
+  "location": "Steps.we_select_package_PACKAGE_with_index(String,String)"
+});
+formatter.result({
+  "duration": 4457887041,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.the_colors_and_options_are_shown()"
+});
+formatter.result({
+  "duration": 6093065495,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 22
+    },
+    {
+      "val": "1",
+      "offset": 42
+    }
+  ],
+  "location": "Steps.we_select_the_color_and_the_engine(String,String)"
+});
+formatter.result({
+  "duration": 2679079225,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.the_accessories_are_shown()"
+});
+formatter.result({
+  "duration": 1437377892,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "",
+      "offset": 25
+    },
+    {
+      "val": "1",
+      "offset": 39
+    },
+    {
+      "val": "0",
+      "offset": 59
+    },
+    {
+      "val": "1",
+      "offset": 89
+    }
+  ],
+  "location": "Steps.we_select_the_accessory_with_index_and_group_index_expected_number(String,String,String,String)"
+});
+formatter.result({
+  "duration": 7782247528,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "1",
+      "offset": 49
+    }
+  ],
+  "location": "Steps.the_number_of_added_accessories_is_as_expected(String)"
+});
+formatter.result({
+  "duration": 2825840230,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.the_confirmation_page_is_shown()"
+});
+formatter.result({
+  "duration": 1034057330,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.we_select_SEND_TO_A_DEALER()"
+});
+formatter.result({
+  "duration": 417209277,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.the_send_to_dealer_form_is_shown()"
+});
+formatter.result({
+  "duration": 1032076788,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "John",
+      "offset": 23
+    },
+    {
+      "val": "Blues",
+      "offset": 41
+    },
+    {
+      "val": "john.b@mail.com",
+      "offset": 64
+    },
+    {
+      "val": "825-265 9898",
+      "offset": 97
+    },
+    {
+      "val": "12 St High, Sherbrooke",
+      "offset": 122
+    },
+    {
+      "val": "J1J1J1",
+      "offset": 163
+    }
+  ],
+  "location": "Steps.we_fill_in_FirstName_LastName_EmailAddress_Phone_Number_Address_and_PostalCode(String,String,String,String,String,String)"
+});
+formatter.result({
+  "duration": 551840119,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Fast Delivery",
+      "offset": 18
+    }
+  ],
+  "location": "Steps.we_add_Comments(String)"
+});
+formatter.result({
+  "duration": 596965609,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.we_submit_Request()"
+});
+formatter.result({
+  "duration": 313685339,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.the_confirmation_page_is_shown()"
+});
+formatter.result({
+  "duration": 1053450112,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Steps.the_final_price_is_valid()"
+});
+formatter.result({
+  "duration": 32759369,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 14724,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 236714,
+  "status": "passed"
+});
 });
