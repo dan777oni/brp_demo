@@ -153,7 +153,7 @@ formatter.examples({
     {
       "cells": [
         "Firefox",
-        "http://54.83.51.229:4503/content/canam-offroad/",
+        "http://54.225.6.59:4503/content/canam-offroad/",
         "en_CA",
         "BYO",
         "ATV",
@@ -183,7 +183,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 83065,
+  "duration": 78150,
   "status": "passed"
 });
 formatter.scenario({
@@ -202,7 +202,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 4,
-  "name": "the browser is \"Firefox\" and we navigate to \"http://54.83.51.229:4503/content/canam-offroad/\" and local is \"en_CA\" and function is \"BYO\"",
+  "name": "the browser is \"Firefox\" and we navigate to \"http://54.225.6.59:4503/content/canam-offroad/\" and local is \"en_CA\" and function is \"BYO\"",
   "matchedColumns": [
     0,
     1,
@@ -344,29 +344,29 @@ formatter.match({
       "offset": 16
     },
     {
-      "val": "http://54.83.51.229:4503/content/canam-offroad/",
+      "val": "http://54.225.6.59:4503/content/canam-offroad/",
       "offset": 45
     },
     {
       "val": "en_CA",
-      "offset": 108
+      "offset": 107
     },
     {
       "val": "BYO",
-      "offset": 132
+      "offset": 131
     }
   ],
   "location": "Steps.the_browser_is_and_we_navigate_to_and_local_is_and_function_is(String,String,String,String)"
 });
 formatter.result({
-  "duration": 11353373091,
+  "duration": 16879823797,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_model_types_are_shown()"
 });
 formatter.result({
-  "duration": 101159320,
+  "duration": 122076331,
   "status": "passed"
 });
 formatter.match({
@@ -383,7 +383,7 @@ formatter.match({
   "location": "Steps.we_select_model_type_and_year(String,String)"
 });
 formatter.result({
-  "duration": 200348872,
+  "duration": 231776723,
   "status": "passed"
 });
 formatter.match({
@@ -400,14 +400,14 @@ formatter.match({
   "location": "Steps.we_select_the_model_MODEL_with_index(String,String)"
 });
 formatter.result({
-  "duration": 1097500316,
+  "duration": 1121018103,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_packages_are_shown()"
 });
 formatter.result({
-  "duration": 4316164596,
+  "duration": 3476778081,
   "status": "passed"
 });
 formatter.match({
@@ -424,14 +424,14 @@ formatter.match({
   "location": "Steps.we_select_package_PACKAGE_with_index(String,String)"
 });
 formatter.result({
-  "duration": 4479753902,
+  "duration": 4406990190,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_colors_and_options_are_shown()"
 });
 formatter.result({
-  "duration": 5919626888,
+  "duration": 1309159085,
   "status": "passed"
 });
 formatter.match({
@@ -448,14 +448,14 @@ formatter.match({
   "location": "Steps.we_select_the_color_and_the_engine(String,String)"
 });
 formatter.result({
-  "duration": 2699670195,
+  "duration": 2638666112,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_accessories_are_shown()"
 });
 formatter.result({
-  "duration": 3630929551,
+  "duration": 1368565171,
   "status": "passed"
 });
 formatter.match({
@@ -480,7 +480,7 @@ formatter.match({
   "location": "Steps.we_select_the_accessory_with_index_and_group_index_expected_number(String,String,String,String)"
 });
 formatter.result({
-  "duration": 7326009285,
+  "duration": 8572393440,
   "status": "passed"
 });
 formatter.match({
@@ -493,28 +493,28 @@ formatter.match({
   "location": "Steps.the_number_of_added_accessories_is_as_expected(String)"
 });
 formatter.result({
-  "duration": 2822756354,
+  "duration": 3051215867,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_confirmation_page_is_shown()"
 });
 formatter.result({
-  "duration": 1029005469,
+  "duration": 1067574032,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.we_select_SEND_TO_A_DEALER()"
 });
 formatter.result({
-  "duration": 333455665,
+  "duration": 386407799,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_send_to_dealer_form_is_shown()"
 });
 formatter.result({
-  "duration": 1110099357,
+  "duration": 1070272644,
   "status": "passed"
 });
 formatter.match({
@@ -547,7 +547,7 @@ formatter.match({
   "location": "Steps.we_fill_in_FirstName_LastName_EmailAddress_Phone_Number_Address_and_PostalCode(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 465216808,
+  "duration": 548805879,
   "status": "passed"
 });
 formatter.match({
@@ -560,36 +560,36 @@ formatter.match({
   "location": "Steps.we_add_Comments(String)"
 });
 formatter.result({
-  "duration": 517221030,
+  "duration": 558233655,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.we_submit_Request()"
 });
 formatter.result({
-  "duration": 300755324,
+  "duration": 299184640,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_confirmation_page_is_shown()"
 });
 formatter.result({
-  "duration": 1044899916,
+  "duration": 1060995127,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_final_price_is_valid()"
 });
 formatter.result({
-  "duration": 32363552,
+  "duration": 63015688,
   "status": "passed"
 });
 formatter.after({
-  "duration": 15480,
+  "duration": 14346,
   "status": "passed"
 });
 formatter.after({
-  "duration": 41910,
+  "duration": 65691,
   "status": "passed"
 });
 });

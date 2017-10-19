@@ -24,7 +24,7 @@ Feature: Build Your Own flow
     
     Examples: Function and home page parameters
  |Browser  |HomePage                                        |Local  |Function |Category |ModelYear|Model |ModelIndex |Package |PackageIndex |ColorIndex |EngineIndex |Accessory |AGroupIndex |AIndex |AddedANumberExp |FirstName |LastName |Email           |Phone       |Address                |Zip    |Comments     |
- |Firefox  |http://54.83.51.229:4503/content/canam-offroad/ |en_CA  |BYO      |ATV      |         |      |2          |        |7            |1          |1           |          |0          |1       |1               |John      |Blues    |john.b@mail.com |825-265 9898|12 St High, Sherbrooke |J1J1J1 |Fast Delivery|													
+ |Firefox  |http://54.225.6.59:4503/content/canam-offroad/ |en_CA  |BYO      |ATV      |         |      |2          |        |7            |1          |1           |          |0          |1       |1               |John      |Blues    |john.b@mail.com |825-265 9898|12 St High, Sherbrooke |J1J1J1 |Fast Delivery|													
   
     
 @en_us
