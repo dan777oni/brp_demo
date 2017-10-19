@@ -183,7 +183,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 77395,
+  "duration": 76640,
   "status": "passed"
 });
 formatter.scenario({
@@ -359,14 +359,14 @@ formatter.match({
   "location": "Steps.the_browser_is_and_we_navigate_to_and_local_is_and_function_is(String,String,String,String)"
 });
 formatter.result({
-  "duration": 13745054401,
+  "duration": 11244831089,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_model_types_are_shown()"
 });
 formatter.result({
-  "duration": 124582023,
+  "duration": 88199462,
   "status": "passed"
 });
 formatter.match({
@@ -383,7 +383,7 @@ formatter.match({
   "location": "Steps.we_select_model_type_and_year(String,String)"
 });
 formatter.result({
-  "duration": 289861819,
+  "duration": 205069978,
   "status": "passed"
 });
 formatter.match({
@@ -400,14 +400,14 @@ formatter.match({
   "location": "Steps.we_select_the_model_MODEL_with_index(String,String)"
 });
 formatter.result({
-  "duration": 1304329671,
+  "duration": 1236357719,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_packages_are_shown()"
 });
 formatter.result({
-  "duration": 4266537777,
+  "duration": 3000666347,
   "status": "passed"
 });
 formatter.match({
@@ -424,14 +424,14 @@ formatter.match({
   "location": "Steps.we_select_package_PACKAGE_with_index(String,String)"
 });
 formatter.result({
-  "duration": 4546569369,
+  "duration": 4477221683,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_colors_and_options_are_shown()"
 });
 formatter.result({
-  "duration": 1523655328,
+  "duration": 1844180825,
   "status": "passed"
 });
 formatter.match({
@@ -448,14 +448,14 @@ formatter.match({
   "location": "Steps.we_select_the_color_and_the_engine(String,String)"
 });
 formatter.result({
-  "duration": 2615383976,
+  "duration": 2617016055,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_accessories_are_shown()"
 });
 formatter.result({
-  "duration": 1448796404,
+  "duration": 1312222395,
   "status": "passed"
 });
 formatter.match({
@@ -480,7 +480,7 @@ formatter.match({
   "location": "Steps.we_select_the_accessory_with_index_and_group_index_expected_number(String,String,String,String)"
 });
 formatter.result({
-  "duration": 7406133188,
+  "duration": 7520626751,
   "status": "passed"
 });
 formatter.match({
@@ -493,28 +493,28 @@ formatter.match({
   "location": "Steps.the_number_of_added_accessories_is_as_expected(String)"
 });
 formatter.result({
-  "duration": 2806106158,
+  "duration": 2822681781,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_confirmation_page_is_shown()"
 });
 formatter.result({
-  "duration": 1070965796,
+  "duration": 1052318266,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.we_select_SEND_TO_A_DEALER()"
 });
 formatter.result({
-  "duration": 409275403,
+  "duration": 350440525,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_send_to_dealer_form_is_shown()"
 });
 formatter.result({
-  "duration": 1062341035,
+  "duration": 1049787279,
   "status": "passed"
 });
 formatter.match({
@@ -547,7 +547,7 @@ formatter.match({
   "location": "Steps.we_fill_in_FirstName_LastName_EmailAddress_Phone_Number_Address_and_PostalCode(String,String,String,String,String,String)"
 });
 formatter.result({
-  "duration": 509202576,
+  "duration": 540698339,
   "status": "passed"
 });
 formatter.match({
@@ -560,36 +560,36 @@ formatter.match({
   "location": "Steps.we_add_Comments(String)"
 });
 formatter.result({
-  "duration": 616752914,
+  "duration": 504677079,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.we_submit_Request()"
 });
 formatter.result({
-  "duration": 364728672,
+  "duration": 315210953,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_confirmation_page_is_shown()"
 });
 formatter.result({
-  "duration": 1060755393,
+  "duration": 1051039181,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.the_final_price_is_valid()"
 });
 formatter.result({
-  "duration": 26217085,
+  "duration": 27445580,
   "status": "passed"
 });
 formatter.after({
-  "duration": 10193,
+  "duration": 53988,
   "status": "passed"
 });
 formatter.after({
-  "duration": 133647,
+  "duration": 7551,
   "status": "passed"
 });
 });
