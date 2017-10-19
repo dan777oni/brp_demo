@@ -1,0 +1,443 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 79659,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "BYO for en_CA",
+        "description": "",
+        "id": "build-your-own-flow;byo-for-en-ca;function-and-home-page-parameters;2",
+        "after": [
+          {
+            "result": {
+              "duration": 46814,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Steps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9061,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12504723515,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the browser is \"Firefox\" and we navigate to \"http://54.83.51.229:4503/content/canam-offroad/\" and local is \"en_CA\" and function is \"BYO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Firefox",
+                  "offset": 16
+                },
+                {
+                  "val": "http://54.83.51.229:4503/content/canam-offroad/",
+                  "offset": 45
+                },
+                {
+                  "val": "en_CA",
+                  "offset": 108
+                },
+                {
+                  "val": "BYO",
+                  "offset": 132
+                }
+              ],
+              "location": "Steps.the_browser_is_and_we_navigate_to_and_local_is_and_function_is(String,String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94758736,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the model types are shown",
+            "match": {
+              "location": "Steps.the_model_types_are_shown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 210304107,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "we select category: \"ATV\" and/or \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ATV",
+                  "offset": 21
+                },
+                {
+                  "val": "",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.we_select_model_type_and_year(String,String)"
+            },
+            "matchedColumns": [
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1111752667,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "we select the model \"\" with index \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                },
+                {
+                  "val": "2",
+                  "offset": 35
+                }
+              ],
+              "location": "Steps.we_select_the_model_MODEL_with_index(String,String)"
+            },
+            "matchedColumns": [
+              6,
+              7
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4061639199,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the packages are shown",
+            "match": {
+              "location": "Steps.the_packages_are_shown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4500085889,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "we select package \"\" with index \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 19
+                },
+                {
+                  "val": "7",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.we_select_package_PACKAGE_with_index(String,String)"
+            },
+            "matchedColumns": [
+              8,
+              9
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1509718288,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the colors and options are shown",
+            "match": {
+              "location": "Steps.the_colors_and_options_are_shown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2693451561,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "we select the color: \"1\" and the engine: \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 22
+                },
+                {
+                  "val": "1",
+                  "offset": 42
+                }
+              ],
+              "location": "Steps.we_select_the_color_and_the_engine(String,String)"
+            },
+            "matchedColumns": [
+              10,
+              11
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1899793828,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the accessories are shown",
+            "match": {
+              "location": "Steps.the_accessories_are_shown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7251872851,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "we select the accessory \"\" with index \"1\" and group index \"0\" and expected added number \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 25
+                },
+                {
+                  "val": "1",
+                  "offset": 39
+                },
+                {
+                  "val": "0",
+                  "offset": 59
+                },
+                {
+                  "val": "1",
+                  "offset": 89
+                }
+              ],
+              "location": "Steps.we_select_the_accessory_with_index_and_group_index_expected_number(String,String,String,String)"
+            },
+            "matchedColumns": [
+              12,
+              13,
+              14,
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2779718805,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the number of added accessories is as expected: \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 49
+                }
+              ],
+              "location": "Steps.the_number_of_added_accessories_is_as_expected(String)"
+            },
+            "matchedColumns": [
+              15
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1033167105,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the Summary page is shown",
+            "match": {
+              "location": "Steps.the_confirmation_page_is_shown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344317681,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "we select Send To Dealer",
+            "match": {
+              "location": "Steps.we_select_SEND_TO_A_DEALER()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1065080797,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the Send to Dealer form is shown",
+            "match": {
+              "location": "Steps.the_send_to_dealer_form_is_shown()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 643232007,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "we fill in FirstName: \"John\", LastName: \"Blues\", EmailAddress: \"john.b@mail.com\", Phone Number: \"825-265 9898\", Address: \"12 St High, Sherbrooke\" and PostalCode: \"J1J1J1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "John",
+                  "offset": 23
+                },
+                {
+                  "val": "Blues",
+                  "offset": 41
+                },
+                {
+                  "val": "john.b@mail.com",
+                  "offset": 64
+                },
+                {
+                  "val": "825-265 9898",
+                  "offset": 97
+                },
+                {
+                  "val": "12 St High, Sherbrooke",
+                  "offset": 122
+                },
+                {
+                  "val": "J1J1J1",
+                  "offset": 163
+                }
+              ],
+              "location": "Steps.we_fill_in_FirstName_LastName_EmailAddress_Phone_Number_Address_and_PostalCode(String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              16,
+              17,
+              18,
+              19,
+              20,
+              21
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 518708502,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "we add Comments: \"Fast Delivery\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Fast Delivery",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.we_add_Comments(String)"
+            },
+            "matchedColumns": [
+              22
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 327532526,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "we submit Request",
+            "match": {
+              "location": "Steps.we_submit_Request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1077317426,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the Summary page is shown",
+            "match": {
+              "location": "Steps.the_confirmation_page_is_shown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38667396,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the final price is valid",
+            "match": {
+              "location": "Steps.the_final_price_is_valid()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@en_ca"
+          }
+        ]
+      }
+    ],
+    "name": "Build Your Own flow",
+    "description": "",
+    "id": "build-your-own-flow",
+    "keyword": "Feature",
+    "uri": "BRP_BYO_flow.feature"
+  }
+]
