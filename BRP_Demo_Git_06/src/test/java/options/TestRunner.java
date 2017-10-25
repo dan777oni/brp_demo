@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 		plugin = {"pretty", "html:target/cucumber", "json:target/cucumber.json"},
 		features = "src/test/java/features",
 		glue={"stepDefinitions"},
-		tags={"@en_ca, @en_us"}
+		tags={"@en_ca"}
 		)
 
 public class TestRunner {
